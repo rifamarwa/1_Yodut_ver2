@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahTugasActivity"
+    android:background="@color/background_biru_muda">
+
+
+    <EditText
+        android:id="@+id/editNamaTugas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_nama_tugas"
+        android:inputType="textAutoComplete"
+        android:minHeight="@dimen/min_height"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="58dp" />
+
+    <EditText
+        android:id="@+id/editDeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_below="@id/editNamaTugas"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="26dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_deadline"
+        android:inputType="textAutoComplete"
+        android:minHeight="20dp"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="177dp" />
+
+    <EditText
+        android:id="@+id/editMataKuliah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editDeadline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="sans-serif-light"
+        android:hint="@string/hint_mata_kuliah"
+        android:inputType="textAutoComplete"
+        android:minHeight="@dimen/min_height"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="129dp" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/kotakDeskripsi"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/editMataKuliah"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        app:cardBackgroundColor="@color/biru_muda_sekali_sekali"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:layout_editor_absoluteY="273dp">
+
+
+        <EditText
+            android:id="@+id/editDeskripsi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="sans-serif-light"
+            android:hint="Deskripsi"
+            android:inputType="textAutoComplete"
+            android:minHeight="@dimen/min_height"
+            android:textSize="15sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/buttonSave"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="299dp"
+        android:layout_marginBottom="44dp"
+        android:background="@color/design_default_color_on_primary"
+        android:fontFamily="sans-serif-light"
+        android:text="Tambah"
+        android:textColor="@color/background_biru_muda"
+        tools:layout_editor_absoluteX="294dp"
+        tools:layout_editor_absoluteY="654dp" />
+
+</RelativeLayout>

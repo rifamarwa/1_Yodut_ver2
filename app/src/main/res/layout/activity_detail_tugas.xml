@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_biru_muda"
+    tools:context=".DetailTugasActivity">
+
+<!--    <ImageView-->
+<!--        android:id="@+id/image_detail_tugas"-->
+<!--        android:layout_width="350dp"-->
+<!--        android:layout_height="230dp"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        />-->
+
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:layout_marginBottom="30dp"-->
+<!--        android:layout_marginLeft="30dp"-->
+<!--        android:layout_marginRight="30dp"-->
+<!--        android:background="@color/biru_tema">-->
+
+    <TextView
+        android:id="@+id/judulNamaTugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="30dp"
+        android:text="Nama Tugas"
+        android:textColor="@color/black"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/text_nama_tugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulNamaTugas"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="14dp"
+        android:text="Nama Tugas"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/judulDeadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_nama_tugas"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="45dp"
+        android:text="Deadline"
+        android:textColor="@color/black"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/text_deadline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulDeadline"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp"
+        android:text="deadline"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/judulMataKuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_deadline"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="40dp"
+        android:text="Mata Kuliah"
+        android:textColor="@color/black"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/text_mata_kuliah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulMataKuliah"
+        android:layout_alignParentStart="true"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="146dp"
+        android:layout_marginTop="15dp"
+        android:text="mata kuliah"
+        android:textSize="60px" />
+
+    <TextView
+        android:id="@+id/judulDeskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_mata_kuliah"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="153dp"
+        android:layout_marginTop="48dp"
+        android:text="Deskripsi"
+        android:textColor="@color/black"
+        android:textSize="70px" />
+
+    <TextView
+        android:id="@+id/text_deskripsi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judulDeskripsi"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="166dp"
+        android:layout_marginTop="20dp"
+        android:text="deksripsi"
+        android:textSize="60px" />
+
+
+    <!--    </androidx.cardview.widget.CardView>-->
+
+
+</RelativeLayout>

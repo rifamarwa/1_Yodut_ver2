@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Yodut</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Yodut</string>
+    <string name="nav_header_subtitle">Your Daily Duty</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_tugas">Tugas</string>
+    <string name="menu_kalendar">Kalendar</string>
+    <string name="hint_nama_tugas">Tambahkan Nama Tugas</string>
+    <string name="hint_deadline">Tambahkan Batas pengerjaan</string>
+    <string name="hint_mata_kuliah">Tambahkan Mata Kuliah</string>
+    <string name="empty_not_saved">Data empty!</string>
+</resources>
